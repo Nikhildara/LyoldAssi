@@ -1,0 +1,59 @@
+@media (min-width: 768px) {
+  .scroll-con {
+    width: 20vw;
+    padding: 15px;
+  }
+}
+
+.scroll-list {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+  /* height: 70px; */
+}
+
+@media (min-width: 768px) {
+  .scroll-list {
+    flex-direction: column;
+    overflow: auto;
+  }
+}
+
+/* .scrollItem {
+  width: 90px;
+  height: 90px;
+} */
+.scrollIcon {
+  width: 45px;
+  height: 45px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 12px; */
+  /* border: 1px solid black; */
+  color: #807f7d;
+  background-color: #e6e6e6;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+@media (min-width: 768px) {
+  .scrollIcon {
+    display: none;
+  }
+}
+.scrollName {
+  font-size: 10px;
+  width: 45px;
+  text-align: center;
+  font-weight: 500;
+  color: #807f7d;
+  margin-top: 5px;
+}
+@media (min-width: 768px) {
+  .scrollName {
+    width: 100px;
+    text-align: left;
+  }
+}

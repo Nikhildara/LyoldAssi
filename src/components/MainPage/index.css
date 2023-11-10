@@ -1,0 +1,9 @@
+.mainPage {
+  font-family: 'Roboto';
+}
+@media (min-width: 768px) {
+  .bottom-page {
+    display: flex;
+    flex-direction: row;
+  }
+}

@@ -1,0 +1,16 @@
+.head {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  justify-content: space-between;
+}
+@media (min-width: 768px) {
+  .head {
+    display: none;
+  }
+}
+.batt-wifi {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}

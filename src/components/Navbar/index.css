@@ -1,0 +1,40 @@
+.navbar-con {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+@media (min-width: 768px) {
+  .navbar-con {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #f7d307;
+  }
+}
+.nav-head {
+  font-family: 'Bree Serif';
+  color: #151f19;
+  font-size: 18px;
+}
+.nav-cart {
+  font-size: 18px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 5px;
+  border-radius: 5px;
+  padding-top: 3px;
+  height: 25px;
+}
+@media (min-width: 768px) {
+  .nav-cart {
+    font-size: 18px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 5px;
+    border-radius: 10px;
+    padding-top: 3px;
+    background-color: white;
+    height: 25px;
+    width: 50px;
+  }
+}
